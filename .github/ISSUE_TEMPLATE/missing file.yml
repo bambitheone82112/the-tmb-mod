@@ -1,0 +1,10 @@
+name: Missing File
+description: Ask for file if something is missing.
+labels: [File]
+body:
+  - type: textarea
+    attributes:
+      label: What needs to be created?
+      description: 'For example: "There is no page explaining how to create an Achievement!"'
+    validations:
+      required: true
